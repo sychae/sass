@@ -1,0 +1,14 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": " sass 배우기",
+  "main": "",
+  "scripts": {
+	"build": "node-sass ./src -r -o ./dist",
+	"hot": "node-sass ./src -rw -o ./dist"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
